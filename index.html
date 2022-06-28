@@ -8,14 +8,18 @@
     <title>iBot</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&family=Poppins:ital,wght@0,100;1,100;1,200&family=Russo+One&display=swap"
         rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&family=Poppins:ital,wght@0,100;1,100;1,200&family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
-    <link id="theme-style" rel="stylesheet" href="">
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+
+    <link id="theme-style" type="text/css" rel="stylesheet" href="">
+    <script src="https://kit.fontawesome.com/61208c56f2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -80,7 +84,7 @@
                 <div class="about-me">
                     <h4>More About Me</h4>
 
-                    <p>I am a freelancer, creating and deploying web applications. Your brand should have an online
+                    <p>I work as a freelancer, creating and deploying web applications. Your brand should have an online
                         presence and I'm here to help you with that.
                     </p>
 
@@ -124,13 +128,21 @@
                 <div class="social-links">
                     <img id="social-img" src="img/Design Interior - Website concept.png" alt="">
 
-                    <div class="">
+                    <div>
                         <h3>CONNECT ON SOCIAL MEDIA</h3>
-                        <a target="_blank" href="https://github.com/Adeelijah"><i
-                                class="fa-brands fa-linkedin"></i>Github</a>
-                        <br>
-                        <a target="_blank" href="https://www.linkedin.com/in/adegbenjo-elijah-338448224"><i
-                                class="fa fa-linkedin" aria-hidden="true"></i>Linkedin</a>
+
+                        <div class="links">
+                            <a target="_blank" href="https://github.com/Adeelijah"><i
+                                    class="fa-brands fa-github"></i></a>
+
+                            <a target="_blank" href="https://www.linkedin.com/in/adegbenjo-elijah-338448224"><i
+                                    class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+
+                            <a href="https://facebook.com/ibotlinks"><i class="fa-brands fa-facebook-square"></i></a>
+
+                            <a href="https://twitter.com/Elijah_ish"><i class="fa-brands fa-twitter-square"></i></a>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -179,14 +191,15 @@
 
                 <div>
                     <div class="post">
-                        <img class="thumbmail" src="img/Wallpaper bandas de rock_.jpg" alt="">
+                        <img class="thumbmail"
+                            src="img/How to Make Money in Logistics and Shipping as a Freight Broker.jpg" alt="">
 
                         <div class="post-preview">
-                            <h6 class="post-title">Beets01</h6>
-                            <p class="post-intro">An online Playlist of Trending music
+                            <h6 class="post-title">RichLogistics</h6>
+                            <p class="post-intro">A fully functional logistics company's Website
                             </p>
 
-                            <a target="_blank" href="https://beets01.netlify.app">Learn More</a>
+                            <a target="_blank" href="https://richLogistics.netlify.app">Learn More</a>
                         </div>
 
 
@@ -202,7 +215,7 @@
 
             <h3 style="text-align: center;">Get in Touch</h3>
 
-            <form action="" id="contact-form">
+            <form action="" name="contact" method="POST" data-netlify="true" id="contact-form">
 
                 <label for="">Name</label>
                 <input class="input-field" name="name" type="text">
