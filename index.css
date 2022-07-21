@@ -33,6 +33,26 @@ strong {
     font-weight: 500;
 }
 
+#typing-text {
+    color: var(--mainText);
+    border: var(--borderColor);
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    overflow: auto;
+    background-color: var(--mainColor);
+    font-size: 32px;
+    padding: 5px;
+    height: 100px;
+    width: 500px;
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+
 p,
 li,
 span,
@@ -434,6 +454,13 @@ body * {
     }
 
     .right-col {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #typing-text {
+        width: 95%;
         justify-content: center;
     }
 }
