@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+
+h2 {
+    color: var(--mainText);
+    font-family: 'Russo One', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
 /* Style inputs */
 input[type=text],
 select,
@@ -19,6 +27,7 @@ input[type=submit] {
     color: white;
     padding: 12px 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
